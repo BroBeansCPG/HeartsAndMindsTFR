@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=40;
+		nextID=47;
 	};
 	class Camera
 	{
-		pos[]={7044.0645,78.53949,13589.705};
-		dir[]={0.42059654,-0.30733436,-0.85368145};
-		up[]={0.13586113,0.95157593,-0.2757529};
-		aside[]={-0.89709741,8.6149521e-007,-0.44199118};
+		pos[]={6083.3311,250.92426,13210.875};
+		dir[]={0.32159969,-0.72089398,0.6140306};
+		up[]={0.33447886,0.69301951,0.63862306};
+		aside[]={0.88592196,-1.4778561e-006,-0.46399808};
 	};
 };
 binarizationWanted=0;
@@ -6581,19 +6581,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6260.9736,14.815893,13370.907};
-				angles[]={0,3.5630167,0.0090957033};
+				position[]={6260.9736,14.816062,13370.907};
+				angles[]={0,3.5630198,0.0090931654};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{[fort_crate,""Land_BagFence_Corner_F""] call grad_fortifications_fnc_addFort;}";
 				name="fort_crate";
 			};
 			id=262;
 			type="Land_Cargo20_grey_F";
-			atlOffset=-0.0011692047;
+			atlOffset=-0.0010004044;
 		};
 		class Item77
 		{

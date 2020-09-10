@@ -1,7 +1,8 @@
 class CfgGradFortifications {
     canDemolishDefault = 1;
-    buildTimeFactor = 1.75;
-    demolitionTimeFactor = 1;
+    buildTimeFactor = 2.5;
+    demolitionTimeFactor = 2.5;
+    packUpTimeFactor = 2.5;
     playerInventorySize = 30;
     vehicleInventorySizeFactor = 2;
 	fortificationOwnerType = "Side";
