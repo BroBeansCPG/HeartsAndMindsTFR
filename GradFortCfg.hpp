@@ -1,27 +1,24 @@
 class CfgGradFortifications {
     canDemolishDefault = 1;
-    buildTimeFactor = 2.5;
-    demolitionTimeFactor = 2.5;
-    packUpTimeFactor = 2.5;
+    buildTimeFactor = 6;
+    demolitionTimeFactor = 6;
+    packUpTimeFactor = 9;
     playerInventorySize = 30;
     vehicleInventorySizeFactor = 2;
 	fortificationOwnerType = "Side";
 
-    /*class Fortifications {
-        class Land_BagFence_Long_F {
+    class Fortifications {
+        class CamoNet_BLUFOR_big_F {
             boundingBoxSize = 1;
-            canFloat = 1;
-            canCollide = 1;
-            size = 3;
-            demolitionTime = 10;
+            size = 10;
         };
-
-        class Land_HBarrier_5_F {
-            boundingBoxSize = 0.8;
-            surfaceNormal = 0;
-            canDemolish = 0;
+        class CamoNet_BLUFOR_open_F {
+            size = 10;
         };
-    };*/
+        class CamoNet_BLUFOR_F {
+            size = 10;
+        };
+    };
 
     class Vehicles {
         class rhsusf_M977A4_BKIT_usarmy_wd 
