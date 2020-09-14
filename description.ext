@@ -12,6 +12,7 @@ disabledAI 					= 	1;
 respawnDialog 				= 	0;
 respawn 					= 	"BASE";
 respawnDelay 				= 	10;
+respawnTemplates[] 			= 	{"MenuPosition"};
 
 #include "core\fnc\common\dlg.hpp"
 #include "core\fnc\fob\dlg.hpp"

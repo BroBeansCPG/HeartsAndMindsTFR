@@ -19,7 +19,7 @@ if (!isDedicated && !hasInterface) then {
     [] call compile preprocessFileLineNumbers "core\init_headless.sqf";
 };
 
-_addFort = execVM "modules\grad-fortifications\addLotsaFort.sqf";
+
 //MAP SAVE ACTION
 
 waitUntil { player == player };
